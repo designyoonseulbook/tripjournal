@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — RoutePic</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 40px 24px;
+      color: #1c1c1e;
+      line-height: 1.7;
+      font-size: 16px;
+    }
+    h1 { font-size: 26px; font-weight: 700; margin-bottom: 6px; }
+    h2 { font-size: 18px; font-weight: 600; margin-top: 36px; border-bottom: 1px solid #e0e0e0; padding-bottom: 6px; }
+    p, li { color: #3a3a3c; }
+    ul { padding-left: 20px; }
+    .updated { color: #8e8e93; font-size: 14px; margin-bottom: 32px; }
+    .highlight { background: #f2f9f2; border-left: 4px solid #3a7d44; padding: 12px 16px; border-radius: 4px; margin: 16px 0; }
+    .lang { font-size: 14px; margin-bottom: 24px; }
+    .lang a { color: #3a7d44; }
+  </style>
+</head>
+<body>
+
+<p class="lang"><a href="../">한국어</a> · <strong>English</strong></p>
+
+<h1>Privacy Policy</h1>
+<p class="updated">Last updated: July 9, 2026</p>
+
+<div class="highlight">
+  RoutePic is an <strong>offline-first</strong> travel journal app.<br>
+  The app uses no developer-operated server, no advertising SDK, no analytics SDK, and no cloud sync.<br>
+  Communication with outside services or apps can still occur for map display, speech recognition, translation language pack downloads, and mail or share actions that you start yourself.
+</div>
+
+<h2>1. Information the app accesses and why</h2>
+<p>RoutePic may use system permissions such as location, camera, microphone, photo library, speech recognition, and notifications, and processes the following information.</p>
+<ul>
+  <li><strong>Location</strong> — used to record your travel route, to trigger proximity alerts for places, and to store location metadata on photos, videos, and voice memos. An ongoing trip may include background location recording.</li>
+  <li><strong>Photos, videos, and their metadata</strong> — media you capture or select, which may include capture time and location metadata.</li>
+  <li><strong>Audio and speech recognition results</strong> — voice memo files and the text transcribed from them.</li>
+  <li><strong>Extracted text and translation results</strong> — text recognized in photos and its translation.</li>
+  <li><strong>Your input and settings</strong> — notes, titles, a default export email address, and settings such as map, translation, notification, and unit preferences.</li>
+  <li><strong>Your files</strong> — KML files, offline maps (.mbtiles), and SQLite backup files that you import or export.</li>
+  <li><strong>Diagnostic logs</strong> — local logs created to check errors and app state.</li>
+</ul>
+
+<h2>2. How information is stored</h2>
+<ul>
+  <li>Information is stored locally, in a database inside the app sandbox and in the app's <strong>Documents</strong> folder. This may include trip records, photos and videos, voice memos, speech recognition results, OCR and translation results, imported files, logs, and app settings.</li>
+  <li>The primary location is the app's <strong>Documents</strong> folder. You can put files in and take files out yourself through Finder or iTunes file sharing.</li>
+  <li>The Documents folder is excluded from automatic iCloud and device backup.</li>
+  <li>As a safeguard during database migration or import, a separate SQLite backup copy may be created inside the app sandbox (<code>Application Support/RoutePic/RoutePic.backup.sqlite</code>, <code>Documents/RoutePic.import-backup.sqlite</code>).</li>
+  <li>If you set a deletion password, it is stored on the device as a hash, never as plain text.</li>
+  <li>The app does not automatically upload your travel data to any developer server, and it does not offer cloud sync.</li>
+</ul>
+
+<h2>3. When communication with outside services occurs</h2>
+<ul>
+  <li><strong>Map providers</strong> — when you use Apple Maps, Google Maps, or the online MapLibre/MapTiler styles, map rendering requests are sent to that provider's servers.</li>
+  <li><strong>Speech recognition</strong> — the app requests on-device processing from Apple Speech first, but depending on the language and your device, it may communicate with Apple's speech recognition service.</li>
+  <li><strong>Text translation</strong> — text recognition in photos (OCR) is processed entirely on the device, but translation uses Apple Translation, which may download a language pack from Apple's servers if it is not already installed on your device.</li>
+  <li><strong>Offline MapLibre support resources</strong> — offline maps use the MBTiles file on your device first, but if the glyph and sprite resources for map labels are not prepared locally, the app may fall back to remote font and icon resources.</li>
+  <li><strong>Mail and sharing</strong> — feedback mail, exporting trip data by mail, and the share sheet send information to an external mail service or an app you choose only when you start the action yourself.</li>
+</ul>
+
+<h2>4. Third parties and sharing you initiate</h2>
+<ul>
+  <li>RoutePic does not share your data with third parties for advertising, analytics, or marketing.</li>
+  <li>The developer does not remotely collect or view data stored on your device.</li>
+  <li>The share sheet, sending mail, and Finder/iTunes file sharing run only on your explicit action.</li>
+  <li>Mail and attachments you send yourself can be received by the recipients you chose.</li>
+</ul>
+
+<h2>5. Retention and deletion</h2>
+<ul>
+  <li>Data stored in the app sandbox is removed when you delete it in the app, or when you delete the app.</li>
+  <li>Photos and videos also saved to the Photos app remain in your iOS photo library and are not removed by deleting RoutePic.</li>
+  <li>Files you copied out through mail, the share sheet, or Finder/iTunes file sharing must be managed separately wherever you copied them.</li>
+</ul>
+
+<h2>6. Children's privacy</h2>
+<p>RoutePic is not directed to children under the age of 14 and does not knowingly collect personal information from children.</p>
+
+<h2>7. Changes to this policy</h2>
+<p>If this policy changes, we will give notice through an app update or on this page.</p>
+
+<h2>8. Contact</h2>
+<p>For questions about this privacy policy, please contact us.</p>
+<p>Email: <a href="mailto:designyoonseulbook@gmail.com">designyoonseulbook@gmail.com</a></p>
+
+</body>
+</html>
